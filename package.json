@@ -1,0 +1,18 @@
+{
+  "name": "wi-sde-task",
+  "version": "1.0.0",
+  "description": "This is a Railway Management System API that allows users to register, login, add trains, check seat availability, book seats, and view booking details. Admins have special privileges to add new trains. The API is built using Node.js, Express, MySQL, and JWT for authentication.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.5"
+  }
+}
